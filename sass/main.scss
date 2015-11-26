@@ -1,6 +1,70 @@
-// Put any @imports here
-// See Readme for a list of supported ones
+// Imports
+@import "foundation";
+@import "font-awesome";
 
 body {
-  background: #e2ebf3;
+  background: #EDEEEE;
+}
+
+.top-bar {
+  background: #FFFFFF;
+  height: 3rem;
+
+  .title-area .name a {
+    color: #84878B;
+    font-size: 1.1rem;
+
+  }
+}
+
+nav {
+  border-bottom: 1px solid #EDEEEE;
+
+  .top-bar-section .right {
+    // border-bottom: 1px solid #cccccc;
+    height: 25px;
+
+    li {
+      margin-left: 15px;
+     } 
+  }
+
+  .top-bar-section li a:not(.button) {
+      background: #FFFFFF !important;
+      color: #84878B; 
+      font-size: 0.90rem 
+  }
+
+  .top-bar-section li a:not(.button):hover {
+      background: #FFFFFF !important;
+      color: #09477D;   
+  }
+
+  .top-bar-section ul li.active > a {
+      background: #FFFFFF !important;   
+  }
+
+  .top-bar-section ul li.active > a:hover {
+      background: #FFFFFF !important;   
+  }
+}
+
+.home {
+  width: 80%;
+  margin: auto;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+}
+
+.work {
+  width: 80%;
+  margin: auto;
+}
+
+.contact {
+  width: 80%;
+  margin: auto;
 }
