@@ -8423,9 +8423,9 @@ nav {
   nav .top-bar-section .center li a {
     font-family: 'Roboto', sans-serif; }
   nav .top-bar-section .right {
-    height: 25px; }
+    height: 1.563em; }
     nav .top-bar-section .right li {
-      margin-left: 10px; }
+      margin-left: 1em; }
       nav .top-bar-section .right li a i {
         font-size: 1.25em; }
   nav .top-bar-section li a:not(.button) {
@@ -8467,27 +8467,42 @@ nav {
   .about h5 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
-    color: #424242; }
+    color: #424242;
+    padding-top: .4em; }
   .about p {
     padding: 1.5em;
     background-color: #FFFFFF;
-    border-radius: .2em;
+    border-radius: .25em;
     border: .1em solid #EDEEEE;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     color: #757575; }
-  .about .skills h5 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    color: #424242; }
-  .about .skills ul {
+  .about .photo {
+    text-align: center;
+    background-image: url("/images/portfolioimage.jpg"); }
+  .about .skills {
     width: 100%; }
-    .about .skills ul li {
+    .about .skills h5 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.5em;
+      color: #424242; }
+    .about .skills .skill-list ul {
+      list-style: none;
+      vertical-align: top;
+      display: inline-block;
+      width: 22%;
       font-family: 'Roboto', sans-serif;
       font-size: 1em;
-      color: #757575; }
-      .about .skills ul li ul li {
-        font-size: 0.9em; }
+      color: #424242;
+      padding: 1.5em;
+      background-color: #FFFFFF;
+      border-radius: .25em;
+      border: .1em solid #EDEEEE;
+      font-family: 'Roboto', sans-serif; }
+      .about .skills .skill-list ul li {
+        padding-top: .4em;
+        font-size: .9em;
+        color: #757575; }
   .about .exp {
     width: 100%;
     margin: auto; }
@@ -8503,7 +8518,7 @@ nav {
         align: inline-block;
         text-align: center;
         background-color: #FFFFFF;
-        border-radius: .2em;
+        border-radius: .25em;
         border: .1em solid #EDEEEE;
         font-family: 'Roboto', sans-serif;
         font-size: 1em;
@@ -8513,11 +8528,12 @@ nav {
       height: 20%;
       padding: .5em .1em;
       background-color: #FFFFFF;
-      border-radius: .2em;
+      border-radius: .25em;
       border: .1em solid #EDEEEE;
       font-family: 'Roboto', sans-serif;
       text-align: center;
-      color: #424242; }
+      color: #424242;
+      margin-bottom: 2em; }
       .about .exp div a {
         padding: 1em;
         text-align: center;
@@ -8532,8 +8548,10 @@ nav {
     margin: 0; }
     .work ul li {
       background-color: #FFFFFF;
-      margin: 1em;
-      width: 46%; }
+      padding: 1.5em;
+      margin: .5em;
+      width: 46%;
+      border-radius: .25em; }
 
 .contact {
   width: 100%;

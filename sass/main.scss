@@ -30,10 +30,10 @@ nav {
 
   .top-bar-section .right {
     // border-bottom: 1px solid #cccccc;
-    height: 25px;
+    height: 1.563em;
 
     li {
-      margin-left: 10px;
+      margin-left: 1em;
 
       a i {
         font-size: 1.25em;
@@ -100,19 +100,27 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     color: #424242;
+    padding-top: .4em;
   }
 
   p { 
     padding: 1.5em;
     background-color: #FFFFFF;
-    border-radius: .2em;
+    border-radius: .25em;
     border: .1em solid #EDEEEE;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     color: #757575;
   }
 
+  .photo {
+    text-align: center; 
+    // border-radius: 50%;
+    background-image: url('/images/portfolioimage.jpg');
+  }
+
   .skills {
+    width: 100%;
 
     h5 {
       font-family: 'Roboto', sans-serif;
@@ -120,22 +128,34 @@ nav {
       color: #424242;
     }
 
-    ul {
-      width: 100%;
+    .skill-list {
+
+      ul {
+      list-style: none;
+      vertical-align: top;
+      display: inline-block; 
+      width: 22%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1em;
+      color: #424242;
+      padding: 1.5em;
+      background-color: #FFFFFF;
+      border-radius: .25em;
+      border: .1em solid #EDEEEE;
+      font-family: 'Roboto', sans-serif;
 
       li {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1em;
+        padding-top: .4em;
+        font-size: .9em;
         color: #757575;
-
-        ul li {
-          font-size: 0.9em;
-        }
 
       }
     }
+    }
 
+    
   }
+
 
   .exp {
     width: 100%;
@@ -155,7 +175,7 @@ nav {
         align: inline-block;
         text-align: center;
         background-color: #FFFFFF;
-        border-radius: .2em;
+        border-radius: .25em;
         border: .1em solid #EDEEEE;
         font-family: 'Roboto', sans-serif;
         font-size: 1em;
@@ -168,12 +188,12 @@ nav {
       height: 20%;
       padding: .5em .1em;
       background-color: #FFFFFF;
-      border-radius: .2em;
+      border-radius: .25em;
       border: .1em solid #EDEEEE;
       font-family: 'Roboto', sans-serif;
       text-align: center;
       color: #424242; 
-
+      margin-bottom: 2em;
 
       a {
         padding: 1em;
@@ -184,7 +204,6 @@ nav {
       }
     }
   }
-
 }
 
 .work {
@@ -197,13 +216,10 @@ nav {
 
     li {
       background-color: #FFFFFF;
-      margin: 1em;
+      padding: 1.5em; 
+      margin: .5em;
       width: 46%;
-
-       a img {
-      // width: 120%;
-      // height: 120%;
-      }
+      border-radius: .25em;
     }
   }
 }
