@@ -104,6 +104,7 @@ nav {
   }
 
   p { 
+    // width: 100%;
     padding: 1.5em;
     background-color: #FFFFFF;
     border-radius: .25em;
@@ -111,14 +112,16 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     color: #757575;
+
+    img {
+      width: 30%;
+      margin: auto;
+      margin: 2em;
+      border-radius: 50%;
+    }
   }
 
-  .photo {
-    text-align: center; 
-    // border-radius: 50%;
-    background-image: url('/images/portfolioimage.jpg');
-  }
-
+ 
   .skills {
     width: 100%;
 

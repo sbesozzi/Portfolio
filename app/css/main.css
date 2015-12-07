@@ -8477,9 +8477,11 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     color: #757575; }
-  .about .photo {
-    text-align: center;
-    background-image: url("/images/portfolioimage.jpg"); }
+    .about p img {
+      width: 30%;
+      margin: auto;
+      margin: 2em;
+      border-radius: 50%; }
   .about .skills {
     width: 100%; }
     .about .skills h5 {
