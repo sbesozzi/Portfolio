@@ -8425,7 +8425,7 @@ nav {
   nav .top-bar-section .right {
     height: 1.563em; }
     nav .top-bar-section .right li {
-      margin-left: 1em; }
+      margin-left: .5em; }
       nav .top-bar-section .right li a i {
         font-size: 1.25em; }
   nav .top-bar-section li a:not(.button) {
@@ -8453,7 +8453,7 @@ nav {
     margin: auto; }
     .home .home-text h5 {
       font-family: 'Roboto', sans-serif;
-      font-size: 2.5em;
+      font-size: 2.6em;
       color: #FFFFFF; }
     .home .home-text p {
       font-family: 'Roboto', sans-serif;
@@ -8463,25 +8463,26 @@ nav {
 .about {
   width: 70%;
   margin: auto;
-  padding-top: 2%; }
+  padding-top: 1%; }
   .about h5 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     color: #424242;
     padding-top: .4em; }
-  .about p {
+  .about .block {
     padding: 1.5em;
     background-color: #FFFFFF;
     border-radius: .25em;
     border: .1em solid #EDEEEE;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    color: #757575; }
-    .about p img {
-      width: 30%;
-      margin: auto;
-      margin: 2em;
-      border-radius: 50%; }
+    color: #757575;
+    margin-bottom: 1em; }
+    .about .block .imgWrap {
+      width: 25%;
+      margin: 0 auto; }
+      .about .block .imgWrap img {
+        border-radius: 50%; }
   .about .skills {
     width: 100%; }
     .about .skills h5 {
@@ -8526,7 +8527,8 @@ nav {
         font-size: 1em;
         color: #757575; }
     .about .exp div {
-      width: 18%;
+      width: 15%;
+      margin: auto;
       height: 20%;
       padding: .5em .1em;
       background-color: #FFFFFF;
