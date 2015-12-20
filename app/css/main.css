@@ -8549,7 +8549,8 @@ nav {
   margin: auto;
   padding-top: 3%; }
   .work ul {
-    margin: 0; }
+    margin: 0;
+    padding-left: 4%; }
     .work ul li {
       background-color: #FFFFFF;
       padding: 1.5em;
