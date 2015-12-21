@@ -8547,7 +8547,8 @@ nav {
 .work {
   width: 90%;
   margin: auto;
-  padding-top: 3%; }
+  padding-top: 3%;
+  padding-bottom: 3%; }
   .work ul {
     margin: 0;
     padding-left: 4%; }
@@ -8557,6 +8558,8 @@ nav {
       margin: .75em;
       width: 46%;
       border-radius: .25em; }
+      .work ul li img {
+        border: .1em solid #EDEEEE; }
 
 .contact {
   width: 100%;

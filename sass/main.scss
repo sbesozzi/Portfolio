@@ -217,6 +217,7 @@ nav {
   width: 90%;
   margin: auto;
   padding-top: 3%;
+  padding-bottom: 3%;
 
   ul {
     margin: 0;
@@ -228,6 +229,11 @@ nav {
       margin: .75em;
       width: 46%;
       border-radius: .25em;
+      // border: .1em solid #EDEEEE;
+
+      img {
+        border: .1em solid #EDEEEE;
+      }
     }
   }
 }
