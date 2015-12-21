@@ -8557,7 +8557,8 @@ nav {
       padding: 1.5em;
       margin: .75em;
       width: 46%;
-      border-radius: .25em; }
+      border-radius: .25em;
+      border: .1em solid #EDEEEE; }
       .work ul li img {
         border: .1em solid #EDEEEE; }
 
