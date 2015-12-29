@@ -159,9 +159,7 @@ nav {
     }
     }
 
-    
   }
-
 
   .exp {
     width: 100%;
@@ -214,7 +212,7 @@ nav {
 }
 
 .work {
-  width: 90%;
+  width: 85%;
   margin: auto;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -222,14 +220,19 @@ nav {
   ul {
     margin: 0;
     padding-left: 4%;
-
-    li {
-      background-color: #FFFFFF;
-      padding: 1.5em; 
-      margin: .75em;
-      width: 46%;
+    background-color: #FFFFFF;
+      padding: 1em; 
+      // width: 90;
       border-radius: .25em;
       border: .1em solid #EDEEEE;
+
+    li {
+      // background-color: #FFFFFF;
+      padding: 1.2em; 
+      // margin: .02em;
+      // width: 46%;
+      // border-radius: .25em;
+      // border: .1em solid #EDEEEE;
 
       img {
         border: .1em solid #EDEEEE;
@@ -272,8 +275,8 @@ nav {
 
           i {
             color: #757575;
-            width: 1.5em;
-            padding-right: 2%;
+            width: 1.4em;
+            padding-right: 5%;
             color: #FFFFFF;
           }
         }
