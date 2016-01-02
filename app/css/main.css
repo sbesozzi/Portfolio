@@ -8412,10 +8412,10 @@ body {
 
 .top-bar {
   background: #FFFFFF;
-  height: 3rem; }
+  height: 3.2rem; }
   .top-bar .title-area .name a {
     color: #757575;
-    font-size: 1.1rem;
+    font-size: 1em;
     font-family: 'Roboto', sans-serif; }
 
 nav {
@@ -8423,18 +8423,18 @@ nav {
   nav .top-bar-section .center li a {
     font-family: 'Roboto', sans-serif; }
   nav .top-bar-section .right {
-    height: 1.563em; }
-    nav .top-bar-section .right li {
-      margin-left: .5em; }
-      nav .top-bar-section .right li a i {
-        font-size: 1.25em; }
+    height: 1.563em;
+    padding-top: .2em;
+    margin-right: .2em; }
+    nav .top-bar-section .right li a i {
+      font-size: 1.6em; }
   nav .top-bar-section li a:not(.button) {
     background: #FFFFFF !important;
-    color: #84878B;
+    color: #D4D4D4;
     font-size: 0.90rem; }
   nav .top-bar-section li a:not(.button):hover {
     background: #FFFFFF !important;
-    color: #84878B; }
+    color: #D4D4D4; }
   nav .top-bar-section ul li.active > a {
     background: #FFFFFF !important; }
   nav .top-bar-section ul li.active > a:hover {
@@ -8453,7 +8453,7 @@ nav {
     margin: auto; }
     .home .home-text h5 {
       font-family: 'Roboto', sans-serif;
-      font-size: 2.6em;
+      font-size: 2.4em;
       color: #FFFFFF; }
     .home .home-text p {
       font-family: 'Roboto', sans-serif;
@@ -8466,7 +8466,7 @@ nav {
   padding-top: 1%; }
   .about h5 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #424242;
     padding-top: .4em; }
   .about .block {
@@ -8477,17 +8477,21 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     color: #757575;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    overflow: hidden; }
     .about .block .imgWrap {
-      width: 25%;
-      margin: 0 auto; }
+      width: 20%;
+      float: left; }
       .about .block .imgWrap img {
         border-radius: 50%; }
+    .about .block .personal {
+      width: 75%;
+      float: right; }
   .about .skills {
     width: 100%; }
     .about .skills h5 {
       font-family: 'Roboto', sans-serif;
-      font-size: 1.5em;
+      font-size: 1.4em;
       color: #424242; }
     .about .skills .skill-list ul {
       list-style: none;
@@ -8512,7 +8516,7 @@ nav {
     .about .exp ul {
       width: 100%;
       margin: 0;
-      margin-bottom: 1.5em; }
+      margin-bottom: 1.4em; }
       .about .exp ul li {
         width: 30%;
         height: 20%;
@@ -8525,7 +8529,12 @@ nav {
         border: .1em solid #EDEEEE;
         font-family: 'Roboto', sans-serif;
         font-size: 1em;
-        color: #757575; }
+        color: #424242; }
+        .about .exp ul li p {
+          margin: 0;
+          font-family: 'Roboto', sans-serif;
+          font-size: .9em;
+          color: #757575; }
     .about .exp div {
       width: 15%;
       margin: auto;
@@ -8545,18 +8554,31 @@ nav {
         color: #757575; }
 
 .work {
-  width: 90%;
+  width: 85%;
   margin: auto;
-  padding-top: 3%; }
+  padding-top: 3%;
+  padding-bottom: 3%; }
   .work ul {
     margin: 0;
-    padding-left: 4%; }
+    padding-left: 4%;
+    background-color: #FFFFFF;
+    padding: 1em;
+    border-radius: .25em;
+    border: .1em solid #EDEEEE; }
     .work ul li {
-      background-color: #FFFFFF;
-      padding: 1.5em;
-      margin: .5em;
-      width: 46%;
-      border-radius: .25em; }
+      padding: 1.2em;
+      padding-top: .5em; }
+      .work ul li h6 {
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #757575;
+        margin-top: 0; }
+      .work ul li a {
+        color: #757575;
+        text-align: left; }
+      .work ul li img {
+        border: .1em solid #EDEEEE; }
 
 .contact {
   width: 100%;
@@ -8585,13 +8607,20 @@ nav {
           color: #FFFFFF; }
           .contact .contact-info ul li a i {
             color: #757575;
-            width: 1.5em;
-            padding-right: 2%;
+            width: 1.4em;
+            padding-right: 5%;
             color: #FFFFFF; }
 
 footer {
-  width: 7%;
-  margin: auto;
-  font-size: .7em; }
+  height: 4em;
+  background-color: #FFFFFF;
+  border-top: 1px solid #EDEEEE; }
+  footer div {
+    width: 12%;
+    margin: auto;
+    padding-top: 2.5em;
+    color: #84878B;
+    font-size: .4em;
+    font-family: 'Roboto', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
