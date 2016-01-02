@@ -8,7 +8,7 @@ body {
 
 .top-bar {
   background: #FFFFFF;
-  height: 3rem;
+  height: 3.2rem;
 
   .title-area .name a {
     color: #757575;
@@ -29,26 +29,28 @@ nav {
   .top-bar-section .right {
     // border-bottom: 1px solid #cccccc;
     height: 1.563em;
+    padding-top: .2em;
+    margin-right: .2em;
 
     li {
-      margin-left: .5em;
+      // margin-left: .2em;
 
       a i {
-        font-size: 1.25em;
+        font-size: 1.6em;
       }
     } 
   }
 
   .top-bar-section li a:not(.button) {
       background: #FFFFFF !important;
-      color: #84878B; 
+      color: #D4D4D4; 
       font-size: 0.90rem 
 
   }
 
   .top-bar-section li a:not(.button):hover {
       background: #FFFFFF !important;
-      color: #84878B;   
+      color: #D4D4D4;   
   }
 
   .top-bar-section ul li.active > a {
@@ -240,26 +242,26 @@ nav {
       border: .1em solid #EDEEEE;
 
     li {
-      padding: 1.2em; 
+      padding: 1.2em;
+      padding-top: .5em; 
 
       h6  {
         text-align: left;
         font-family: 'Roboto', sans-serif;
         font-size: 1em;
         color: #757575;
+        margin-top: 0;
+      }
+
+      a {
+        color: #757575;
+        text-align: left;
       }
 
       img {
         border: .1em solid #EDEEEE;
       }
-
-      .pop {
-      background-color: grey;
-      opacity: 50%;
     }
-    }
-
-
   }
 }
 
