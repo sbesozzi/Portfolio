@@ -318,15 +318,12 @@ footer {
   height: 4em;
   background-color: #FFFFFF;
   border-top: 1px solid #EDEEEE;
-
-  div {
-    width: 12%;
-    margin: auto;
-    padding-top: 2.5em;
-    color: #84878B;
-    font-size: .4em;
-    font-family: 'Roboto', sans-serif;
-  }
+  width: 12%;
+  margin: auto;
+  padding-top: 2.5em;
+  color: #84878B;
+  font-size: .4em;
+  font-family: 'Roboto', sans-serif;
 }
 
 //======================================================
@@ -339,9 +336,11 @@ footer {
     width: 100%;
 
     .skill-list {
+      // width: 90% !important;
+
 
       ul { 
-        width: 30%;
+        width: 32% !important;
       }
     } 
   } 
@@ -354,19 +353,23 @@ footer {
       width: 100%;
 
       li {
-        width: 25%;
-        height: 20%;     
+        width: 48% !important;
+        height: 20%;
+        margin-bottom: 1.2em;   
       }
     }
 
     div {
-      width: 25%;
+      width: 26% !important;
     }
   }
 
   footer {
     width: 18%;
     height: 100%;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+
   }
 
 }
@@ -426,13 +429,6 @@ footer {
     margin: auto;
     padding-top: 1%;
 
-    h5 {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.4em;
-      color: #424242;
-      padding-top: .4em;
-    }
-
     .block { 
       padding: 1.5em;
       background-color: #FFFFFF;
@@ -442,22 +438,17 @@ footer {
       font-size: 1em;
       color: #757575;
       margin-bottom: 1em;
-      overflow: hidden;
+      // overflow: hidden;
 
       .imgWrap {
-        width: 30%;
+        width: 38%;
         margin: auto;
-        // float: left;
-
-        img {
-          border-radius: 50%;
-        }
+        margin-bottom: 1em;
       }
 
       .personal {
         width: 75%;
         margin: auto;
-        // float: right;
       }
 
   }
@@ -512,54 +503,13 @@ footer {
 // Contact view
 .contact {
   width: 100%;
-  height: 48em;
-  margin: auto;
-  padding-top: 2%;
-  background-image: url('/images/IMG_2535.jpg');
-  opacity: 0.7; 
-  background-size: cover;
-
-  .contact-info {
-    width: 90%;
-    margin: auto;
-
-    h5 {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.8em;
-      color: #FFFFFF;
-      padding-bottom: 1%;
-    }
-
-    ul {
-      list-style: none;
-      margin-left: 0;
-
-      li {
-        padding-bottom: 1.5em;
-
-        a {
-          font-size: 1.2em;
-          text-decoration: none;
-          color: #FFFFFF;
-
-          i {
-            color: #757575;
-            width: 1.4em;
-            padding-right: 5%;
-            color: #FFFFFF;
-          }
-        }
-      }
-    }
-  }
+  
 }
 
 // Footer
 footer {
-
-  div {
-    width: 37%;
-  }
+  width: 37%;
+  padding-top: 1.2em;
 }
 
 
