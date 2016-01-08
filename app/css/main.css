@@ -8623,4 +8623,124 @@ footer {
     font-size: .4em;
     font-family: 'Roboto', sans-serif; }
 
+@media only screen and (min-width: 651px) and (max-width: 1024px) {
+  .skills {
+    width: 100%; }
+    .skills .skill-list ul {
+      width: 30%; }
+  .exp {
+    width: 100%;
+    margin: auto; }
+    .exp ul {
+      width: 100%; }
+      .exp ul li {
+        width: 25%;
+        height: 20%; }
+    .exp div {
+      width: 25%; }
+  footer {
+    width: 18%;
+    height: 100%; } }
+
+@media only screen and (min-width: 150px) and (max-width: 650px) {
+  nav {
+    border-bottom: 1px solid #EDEEEE; }
+    nav .top-bar-section .center li a {
+      font-family: 'Roboto', sans-serif; }
+    nav .top-bar-section .right {
+      height: 1.563em;
+      padding-top: .2em;
+      margin-right: .2em; }
+      nav .top-bar-section .right li a i {
+        font-size: 1.6em; }
+    nav .top-bar-section li a:not(.button) {
+      background: #FFFFFF !important;
+      color: #D4D4D4;
+      font-size: 0.90rem; }
+    nav .top-bar-section li a:not(.button):hover {
+      background: #FFFFFF !important;
+      color: #D4D4D4; }
+    nav .top-bar-section ul li.active > a {
+      background: #FFFFFF !important; }
+    nav .top-bar-section ul li.active > a:hover {
+      background: #FFFFFF !important; }
+  .about {
+    width: 70%;
+    margin: auto;
+    padding-top: 1%; }
+    .about h5 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.4em;
+      color: #424242;
+      padding-top: .4em; }
+    .about .block {
+      padding: 1.5em;
+      background-color: #FFFFFF;
+      border-radius: .25em;
+      border: .1em solid #EDEEEE;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1em;
+      color: #757575;
+      margin-bottom: 1em;
+      overflow: hidden; }
+      .about .block .imgWrap {
+        width: 30%;
+        margin: auto; }
+        .about .block .imgWrap img {
+          border-radius: 50%; }
+      .about .block .personal {
+        width: 75%;
+        margin: auto; }
+    .about .skills {
+      width: 100%; }
+      .about .skills .skill-list ul {
+        width: 42%;
+        margin-left: 0.9rem; }
+    .about .exp {
+      width: 100%;
+      margin: auto; }
+      .about .exp ul {
+        width: 188%;
+        margin: 0;
+        margin-bottom: 1.4em; }
+        .about .exp ul li {
+          width: 55%;
+          margin-bottom: 1em; }
+      .about .exp div {
+        width: 51%; }
+  .work ul li {
+    width: 100%; }
+  .contact {
+    width: 100%;
+    height: 48em;
+    margin: auto;
+    padding-top: 2%;
+    background-image: url("/images/IMG_2535.jpg");
+    opacity: 0.7;
+    background-size: cover; }
+    .contact .contact-info {
+      width: 90%;
+      margin: auto; }
+      .contact .contact-info h5 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8em;
+        color: #FFFFFF;
+        padding-bottom: 1%; }
+      .contact .contact-info ul {
+        list-style: none;
+        margin-left: 0; }
+        .contact .contact-info ul li {
+          padding-bottom: 1.5em; }
+          .contact .contact-info ul li a {
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #FFFFFF; }
+            .contact .contact-info ul li a i {
+              color: #757575;
+              width: 1.4em;
+              padding-right: 5%;
+              color: #FFFFFF; }
+  footer div {
+    width: 37%; } }
+
 /*# sourceMappingURL=main.css.map */
