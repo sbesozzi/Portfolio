@@ -8455,7 +8455,7 @@ nav {
     margin: auto; }
     .home .home-text h5 {
       font-family: 'Roboto', sans-serif;
-      font-size: 2.4em;
+      font-size: 2.3em;
       color: #FFFFFF; }
     .home .home-text p {
       font-family: 'Roboto', sans-serif;
@@ -8598,23 +8598,24 @@ nav {
     margin: auto; }
     .contact .contact-info h5 {
       font-family: 'Roboto', sans-serif;
-      font-size: 1.8em;
+      font-size: 1.4em;
       color: #FFFFFF;
-      padding-bottom: 1%; }
+      padding-bottom: 2%; }
     .contact .contact-info ul {
       list-style: none;
       margin-left: 0; }
       .contact .contact-info ul li {
         padding-bottom: 1.5em; }
         .contact .contact-info ul li a {
-          font-size: 1.2em;
+          font-size: 1.1em;
           text-decoration: none;
           color: #FFFFFF; }
           .contact .contact-info ul li a i {
             color: #757575;
-            width: 1.4em;
+            width: 0em;
             padding-right: 5%;
-            color: #FFFFFF; }
+            color: #FFFFFF;
+            font-size: 1.6em; }
 
 footer {
   background-color: #FFFFFF;
