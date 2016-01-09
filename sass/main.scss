@@ -16,6 +16,13 @@ body {
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
   }
+
+  .toggle-topbar.menu-icon {
+
+      a {
+      color: #D4D4D4 !important;
+      }
+    }
 }
 
 nav {
@@ -329,7 +336,7 @@ footer {
 //======================================================
 //RESPONSIVE FOR IPAD AND IPAD MINI
 
-@media only screen and (min-width:651px) and (max-width:1024px) {
+@media only screen and (min-width: 651px) and (max-width: 1024px) {
 
 // About view
   .skills {
@@ -375,12 +382,16 @@ footer {
 }
 
 //======================================================
-//RESPONSIVE WD.... FOR IPHONE AND ANDROID.
+//RESPONSIVE FOR IPHONE AND ANDROID
 
-@media only screen and (min-width : 150px) and (max-width:650px) {
+@media only screen and (min-width: 150px) and (max-width: 650px) {
+
+  
 
   nav {
     border-bottom: 1px solid #EDEEEE;
+
+
 
   .top-bar-section .center {
     li a {
@@ -394,7 +405,6 @@ footer {
     margin-right: .2em;
 
     li {
-      // margin-left: .2em;
 
       a i {
         font-size: 1.6em;
