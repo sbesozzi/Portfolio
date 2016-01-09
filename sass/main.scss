@@ -322,30 +322,39 @@ nav {
 
 // Footer
 footer {
+   background-color: #FFFFFF;
+   border-top: 1px solid #EDEEEE;
+  div {
   height: 4em;
   background-color: #FFFFFF;
-  border-top: 1px solid #EDEEEE;
+  // border-top: 1px solid #EDEEEE;
   width: 12%;
   margin: auto;
   padding-top: 2.5em;
+  padding-bottom: 3em;
   color: #84878B;
   font-size: .4em;
   font-family: 'Roboto', sans-serif;
+  }
 }
+
 
 //======================================================
 //RESPONSIVE FOR IPAD AND IPAD MINI
 
 @media only screen and (min-width: 651px) and (max-width: 1024px) {
 
+// Home view
+  .home {
+    height: 58.3em !important;
+  }
+
 // About view
   .skills {
     width: 100%;
 
     .skill-list {
-      // width: 90% !important;
-
-
+  
       ul { 
         width: 32% !important;
       }
@@ -371,7 +380,8 @@ footer {
     }
   }
 
-  footer {
+// Footer
+  footer div{
     width: 18%;
     height: 100%;
     padding-top: 1.2em;
@@ -388,52 +398,60 @@ footer {
 
   
 
-  nav {
-    border-bottom: 1px solid #EDEEEE;
+//   nav {
+//     border-bottom: 1px solid #EDEEEE;
 
 
+//   .top-bar-section .center {
+//     li a {
+//       font-family: 'Roboto', sans-serif;
+//     }
+//   }
 
-  .top-bar-section .center {
-    li a {
-      font-family: 'Roboto', sans-serif;
+//   .top-bar-section .right {
+//     height: 1.563em;
+//     padding-top: .2em;
+//     margin-right: .2em;
+
+//     li {
+
+//       a i {
+//         font-size: 1.6em;
+//       }
+//     } 
+//   }
+
+//   .top-bar-section li a:not(.button) {
+//       background: #FFFFFF !important;
+//       color: #D4D4D4; 
+//       font-size: 0.90rem 
+
+//   }
+
+//   .top-bar-section li a:not(.button):hover {
+//       background: #FFFFFF !important;
+//       color: #D4D4D4;   
+//   }
+
+//   .top-bar-section ul li.active > a {
+//       background: #FFFFFF !important;   
+//   }
+
+//   .top-bar-section ul li.active > a:hover {
+//       background: #FFFFFF !important;   
+//   }
+// }
+
+// Home view
+  .home {
+    height: 34em;
+
+    h5 {
+    font-size: 1.9em !important;
     }
   }
 
-  .top-bar-section .right {
-    height: 1.563em;
-    padding-top: .2em;
-    margin-right: .2em;
-
-    li {
-
-      a i {
-        font-size: 1.6em;
-      }
-    } 
-  }
-
-  .top-bar-section li a:not(.button) {
-      background: #FFFFFF !important;
-      color: #D4D4D4; 
-      font-size: 0.90rem 
-
-  }
-
-  .top-bar-section li a:not(.button):hover {
-      background: #FFFFFF !important;
-      color: #D4D4D4;   
-  }
-
-  .top-bar-section ul li.active > a {
-      background: #FFFFFF !important;   
-  }
-
-  .top-bar-section ul li.active > a:hover {
-      background: #FFFFFF !important;   
-  }
-}
-
-    // About view
+// About view
   .about {
     width: 70%;
     margin: auto;
@@ -517,7 +535,7 @@ footer {
 }
 
 // Footer
-footer {
+footer div{
   width: 37%;
   padding-top: 1.2em;
 }
