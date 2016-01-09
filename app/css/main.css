@@ -8473,6 +8473,7 @@ nav {
     padding-top: .4em; }
   .about .block {
     padding: 1.5em;
+    padding-bottom: 0;
     background-color: #FFFFFF;
     border-radius: .25em;
     border: .1em solid #EDEEEE;
@@ -8662,6 +8663,7 @@ footer {
     padding-top: 1%; }
     .about .block {
       padding: 1.5em;
+      padding-bottom: 0;
       background-color: #FFFFFF;
       border-radius: .25em;
       border: .1em solid #EDEEEE;
@@ -8670,17 +8672,20 @@ footer {
       color: #757575;
       margin-bottom: 1em; }
       .about .block .imgWrap {
-        width: 38%;
+        width: 40%;
         margin: auto;
-        margin-bottom: 1em; }
+        margin-bottom: 1em;
+        float: none !important; }
       .about .block .personal {
         width: 75%;
-        margin: auto; }
+        margin: auto;
+        float: none !important; }
     .about .skills {
       width: 100%; }
       .about .skills .skill-list ul {
         width: 42%;
-        margin-left: 0.9rem; }
+        margin-left: 0.9rem;
+        padding-left: 16px; }
     .about .exp {
       width: 100%;
       margin: auto; }

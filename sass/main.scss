@@ -116,6 +116,7 @@ nav {
 
   .block { 
     padding: 1.5em;
+    padding-bottom: 0;
     background-color: #FFFFFF;
     border-radius: .25em;
     border: .1em solid #EDEEEE;
@@ -396,52 +397,6 @@ footer {
 
 @media only screen and (min-width: 150px) and (max-width: 650px) {
 
-  
-
-//   nav {
-//     border-bottom: 1px solid #EDEEEE;
-
-
-//   .top-bar-section .center {
-//     li a {
-//       font-family: 'Roboto', sans-serif;
-//     }
-//   }
-
-//   .top-bar-section .right {
-//     height: 1.563em;
-//     padding-top: .2em;
-//     margin-right: .2em;
-
-//     li {
-
-//       a i {
-//         font-size: 1.6em;
-//       }
-//     } 
-//   }
-
-//   .top-bar-section li a:not(.button) {
-//       background: #FFFFFF !important;
-//       color: #D4D4D4; 
-//       font-size: 0.90rem 
-
-//   }
-
-//   .top-bar-section li a:not(.button):hover {
-//       background: #FFFFFF !important;
-//       color: #D4D4D4;   
-//   }
-
-//   .top-bar-section ul li.active > a {
-//       background: #FFFFFF !important;   
-//   }
-
-//   .top-bar-section ul li.active > a:hover {
-//       background: #FFFFFF !important;   
-//   }
-// }
-
 // Home view
   .home {
     height: 34em;
@@ -459,6 +414,7 @@ footer {
 
     .block { 
       padding: 1.5em;
+      padding-bottom: 0;
       background-color: #FFFFFF;
       border-radius: .25em;
       border: .1em solid #EDEEEE;
@@ -466,17 +422,21 @@ footer {
       font-size: 1em;
       color: #757575;
       margin-bottom: 1em;
+
       // overflow: hidden;
 
       .imgWrap {
-        width: 38%;
+        width: 40%;
         margin: auto;
         margin-bottom: 1em;
+        float: none !important;
       }
 
       .personal {
         width: 75%;
         margin: auto;
+        float: none !important;
+
       }
 
   }
@@ -490,6 +450,7 @@ footer {
       ul {
         width: 42%;
         margin-left: 0.9rem;
+        padding-left: 16px;
       }
     }
 
