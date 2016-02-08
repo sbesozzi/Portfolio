@@ -8484,6 +8484,7 @@ nav {
     overflow: hidden; }
     .about .block .imgWrap {
       width: 20%;
+      margin-left: .5em;
       float: left; }
       .about .block .imgWrap img {
         border-radius: 50%; }
