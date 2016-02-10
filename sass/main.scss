@@ -6,6 +6,7 @@ body {
   background: #FAFAFA;
 }
 
+// Nav bar
 .top-bar {
   background: #FFFFFF;
   height: 3.2rem;
@@ -15,12 +16,19 @@ body {
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
   }
+
+  .toggle-topbar.menu-icon {
+
+      a {
+      color: #D4D4D4 !important;
+      }
+    }
 }
 
 nav {
   border-bottom: 1px solid #EDEEEE;
 
-  .top-bar-section .center {
+  .top-bar-section .left {
     li a {
       font-family: 'Roboto', sans-serif;
     }
@@ -31,6 +39,11 @@ nav {
     height: 1.563em;
     padding-top: .2em;
     margin-right: .2em;
+
+    // .divider {
+    //   border-right: solid 1px #FFFFFF;
+    //   margin-right: 1.5em;
+    // }
 
     li {
       // margin-left: .2em;
@@ -63,7 +76,7 @@ nav {
 }
 
 
-
+// Home view
 .home {
   width: 100%;
   height: 48em;
@@ -79,7 +92,7 @@ nav {
 
     h5 {
       font-family: 'Roboto', sans-serif;
-      font-size: 2.4em;
+      font-size: 2.3em;
       color: #FFFFFF;
     }
 
@@ -92,6 +105,7 @@ nav {
 
 }
 
+// About view
 .about {
   width: 70%;
   margin: auto;
@@ -107,6 +121,7 @@ nav {
 
   .block { 
     padding: 1.5em;
+    padding-bottom: 0;
     background-color: #FFFFFF;
     border-radius: .25em;
     border: .1em solid #EDEEEE;
@@ -118,6 +133,7 @@ nav {
 
     .imgWrap {
       width: 20%;
+      margin-left: .5em;
       float: left;
 
       img {
@@ -145,26 +161,26 @@ nav {
     .skill-list {
 
       ul {
-      list-style: none;
-      vertical-align: top;
-      display: inline-block; 
-      width: 22%;
-      font-family: 'Roboto', sans-serif;
-      font-size: 1em;
-      color: #424242;
-      padding: 1.5em;
-      background-color: #FFFFFF;
-      border-radius: .25em;
-      border: .1em solid #EDEEEE;
-      font-family: 'Roboto', sans-serif;
+        list-style: none;
+        vertical-align: top;
+        display: inline-block; 
+        width: 22%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: #424242;
+        padding: 1.5em;
+        background-color: #FFFFFF;
+        border-radius: .25em;
+        border: .1em solid #EDEEEE;
+        font-family: 'Roboto', sans-serif;
 
-      li {
-        padding-top: .4em;
-        font-size: .9em;
-        color: #757575;
+        li {
+          padding-top: .4em;
+          font-size: .9em;
+          color: #757575;
 
+        }
       }
-    }
     }
 
   }
@@ -174,10 +190,14 @@ nav {
     margin: auto;
 
     ul {
-      width: 100%;
+      width: 105%;
       margin: 0;
       // text-align: center;
       margin-bottom: 1.4em;
+
+      .ironyard {
+        margin-right: 0;
+      }
 
       li {
         width: 30%;
@@ -226,6 +246,7 @@ nav {
   }
 }
 
+// Work view
 .work {
   width: 85%;
   margin: auto;
@@ -265,6 +286,7 @@ nav {
   }
 }
 
+// Contact view
 .contact {
   width: 100%;
   height: 48em;
@@ -280,9 +302,9 @@ nav {
 
     h5 {
       font-family: 'Roboto', sans-serif;
-      font-size: 1.8em;
+      font-size: 1.4em;
       color: #FFFFFF;
-      padding-bottom: 1%;
+      padding-bottom: 2%;
     }
 
     ul {
@@ -293,15 +315,16 @@ nav {
         padding-bottom: 1.5em;
 
         a {
-          font-size: 1.2em;
+          font-size: 1.1em;
           text-decoration: none;
           color: #FFFFFF;
 
           i {
             color: #757575;
-            width: 1.4em;
+            width: 0em;
             padding-right: 5%;
             color: #FFFFFF;
+            font-size: 1.6em;
           }
         }
       }
@@ -309,17 +332,207 @@ nav {
   }
 }
 
+// Footer
 footer {
+   background-color: #FFFFFF;
+   border-top: 1px solid #EDEEEE;
+  div {
   height: 4em;
   background-color: #FFFFFF;
-  border-top: 1px solid #EDEEEE;
+  // border-top: 1px solid #EDEEEE;
+  width: 12%;
+  margin: auto;
+  padding-top: 2.5em;
+  padding-bottom: 3em;
+  color: #84878B;
+  font-size: .4em;
+  font-family: 'Roboto', sans-serif;
+  }
+}
 
-  div {
-    width: 12%;
+
+// ======================================================
+// Responsive for iPad and iPad mini
+
+@media only screen and (min-width: 651px) and (max-width: 1024px) {
+
+// Home view
+  .home {
+    height: 58.3em !important;
+  }
+
+// About view
+  .skills {
+    width: 100%;
+
+    .skill-list {
+  
+      ul { 
+        width: 24% !important;
+        margin: auto;
+      }
+    } 
+  } 
+
+  .exp {
+    width: 100%;
     margin: auto;
-    padding-top: 2.5em;
-    color: #84878B;
-    font-size: .4em;
-    font-family: 'Roboto', sans-serif;
+
+    ul {
+      width: 100% !important;
+      padding-left: 2.2em;
+     
+      li {
+        width: 28% !important;
+        // height: 20%;
+        margin-bottom: 1.2em;   
+      }
+    }
+
+    div {
+      width: 26% !important;
+    }
+  }
+
+// Work view
+  .work {
+    height: 58em;
+  }
+
+// Contact
+  .contact {
+    height: 58em;
+  }
+
+// Footer
+  footer div{
+    width: 18%;
+    height: 100%;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+
+  }
+
+}
+
+
+// ======================================================
+// Responsive for iPhone and Androide
+
+@media only screen and (min-width: 150px) and (max-width: 650px) {
+
+// Home view
+  .home {
+    height: 34em;
+
+    h5 {
+    font-size: 1.9em !important;
+    }
+  }
+
+// About view
+  .about {
+    width: 70%;
+    margin: auto;
+    padding-top: 1%;
+
+    .block { 
+      padding: 1.5em;
+      padding-bottom: 0;
+      background-color: #FFFFFF;
+      border-radius: .25em;
+      border: .1em solid #EDEEEE;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1em;
+      color: #757575;
+      margin-bottom: 1em;
+
+      .imgWrap {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 1em;
+        float: none !important;
+      }
+
+      .personal {
+        width: 75%;
+        margin: auto;
+        float: none !important;
+
+      }
+    }
+
+  .skills {
+    width: 100%;
+
+    .skill-list {
+
+      ul {
+        width: 42%;
+        margin-left: 0.9rem;
+        padding-left: 16px;
+      }
+    }
+  }
+
+  .exp {
+    width: 100%;
+    margin: auto;
+
+    ul {
+      width: 188%;
+      margin: 0;
+      // text-align: center;
+      margin-bottom: 1.4em;
+
+      li {
+        width: 55%;
+        margin-bottom: 1em;
+      }
+    }
+
+    div {
+      width: 51%;
+    }
+  }
+}
+
+// Work view
+  .work {
+   
+    ul {
+      
+      li {
+        width: 100%;
+      }
+    }
+  }
+
+// Contact view
+  .contact {
+    width: 100%;
+    height: 34em;
+
+    .contact-info {
+
+      h5 {
+      font-size: 1.3em;
+      }
+
+      ul li a {
+        font-size: 1em;
+
+        i {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+
+// Footer
+  footer div{
+    width: 37%;
+    padding-top: 1.2em;
+    padding-bottom: 0;
   }
 }
