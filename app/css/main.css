@@ -8559,6 +8559,8 @@ nav {
         text-align: center;
         font-family: 'Roboto', sans-serif;
         color: #757575; }
+      .about .exp div a:hover {
+        color: #3B3B3B; }
 
 .work {
   width: 85%;

@@ -73,7 +73,7 @@ nav {
   .top-bar-section ul li.active > a:hover {
       background: #FFFFFF !important;   
   }
-  
+
 }
 
 
@@ -242,6 +242,9 @@ nav {
         font-family: 'Roboto', sans-serif;
         color: #757575; 
         
+      }
+      a:hover {
+        color: #3B3B3B;
       }
     }
   }
