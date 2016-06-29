@@ -8581,9 +8581,13 @@ nav {
         font-size: 1em;
         color: #757575;
         margin-top: 0; }
+      .work ul li h6:hover {
+        color: #3B3B3B; }
       .work ul li a {
         color: #757575;
         text-align: left; }
+      .work ul li a:hover {
+        color: #3B3B3B; }
       .work ul li img {
         border: .1em solid #EDEEEE; }
 

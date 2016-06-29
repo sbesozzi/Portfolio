@@ -264,7 +264,7 @@ nav {
 
     li {
       padding: 1.2em;
-      padding-top: .5em; 
+      padding-top: .5em;
 
       h6  {
         text-align: left;
@@ -273,10 +273,16 @@ nav {
         color: #757575;
         margin-top: 0;
       }
+      h6:hover {
+        color: #3B3B3B;
+      }
 
       a {
         color: #757575;
         text-align: left;
+      }
+      a:hover {
+        color: #3B3B3B;
       }
 
       img {
