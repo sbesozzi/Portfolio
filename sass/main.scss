@@ -135,7 +135,6 @@ nav {
     .imgWrap {
       width: 17%;
       padding-bottom: 1.5em;
-      margin-left: .5em;
       float: left;
 
       img {
@@ -144,10 +143,18 @@ nav {
     }
 
     .personal {
-      width: 75%;
+      width: 80%;
       float: right;
+
+      p {
+        text-align: justify;
+      }
     }
 
+  }
+
+  .designer p {
+    text-align: justify;
   }
 
   .skills {

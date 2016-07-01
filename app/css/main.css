@@ -8485,13 +8485,16 @@ nav {
     .about .block .imgWrap {
       width: 17%;
       padding-bottom: 1.5em;
-      margin-left: .5em;
       float: left; }
       .about .block .imgWrap img {
         border-radius: 50%; }
     .about .block .personal {
-      width: 75%;
+      width: 80%;
       float: right; }
+      .about .block .personal p {
+        text-align: justify; }
+  .about .designer p {
+    text-align: justify; }
   .about .skills {
     width: 100%; }
     .about .skills h5 {
